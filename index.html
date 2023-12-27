@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IP Address Checker</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('Contents/background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #discord-logo {
+            height: 20px;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Your IP Address</h1>
-        <p id="ip-address">Loading...</p>
-    </div>
+    <h1>Your IP Address</h1>
+    <p id="ip-address">Loading...</p>
 
-    <div class="footer">
-        <p>Made by Fafiew | Discord : <img src="Contents/Discord.png" alt="Discord Logo"> dakingfafiew</p>
+    <div id="footer">
+        Made by Fafiew | Discord -> <img src="Contents/Discord.png" alt="Discord Logo" id="discord-logo"> dakingfafiew
     </div>
 
     <script src="script.js"></script>
